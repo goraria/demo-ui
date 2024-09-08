@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta http-equiv="X-UA-Compatible" content="ie=edge"> -->
+    <title>Gorth</title>
+    <link rel="stylesheet" href="./assets/fonts/css/all.css">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+</head>
+<body>
+    <div id="main" class="app wrapper">
+        <header id="header" class="header">
+            <div class="grid wide">
+                <nav class="header__navbar hide-on-moblie-tablet">
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item--qr">
+                            Gorth Webshop on mobile
+                            <div class="header__qr">
+                                <img src="./assets/img/app/qrcode.png" alt="QR Code" class="header__qr-img">
+                                <div class="header__qr-apps">
+                                    <a href="#" class="header__qr-link">
+                                        Play Store
+                                        <img src="./assets/img/app/playstore.png" alt="Google Play Store" class="header__qr-download">
+                                    </a>
+                                    <a href="#" class="header__qr-link">
+                                        App Store
+                                        <img src="./assets/img/app/appstore.png" alt="Apple App Store" class="header__qr-download">
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="header__navbar-item--separate"></li>
+                        <li class="header__navbar-item"><span class="header__navbar-title--no-pointer">Connect</span></li>
+                        <li class="header__navbar-item">
+                            <a href="#" class="header__navbar-icon-link">
+                                <i class="header__navbar-icon fa-brands fa-square-facebook"></i>
+                            </a>
+                        </li>
+                        <li class="header__navbar-item">
+                            <a href="#" class="header__navbar-icon-link">
+                                <i class="header__navbar-icon fa-brands fa-square-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item--notify">
+                            <a href="#" class="header__navbar-item-link">
+                                <i class="header__navbar-icon fa-solid fa-bell"></i>
+                                <span>Notification</span>
+                            </a>
+                            <div class="header__notification">
+                                <header class="header__notification-header">
+                                    <h3>Lastest Notify</h3>
+                                </header>
+                                <ul class="header__notification-list">
+                                    <li class="header__notification-item">
+                                        <a href="#" class="header__notification-link">
+                                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/LEGO_logo.svg/1200px-LEGO_logo.svg.png" alt="" class="header__notification-img">
+                                            <div class="header__notification-info">
+                                                <span class="header__notification-name">Architectural's House Designed by Japtor</span>
+                                                <span class="header__notification-description">Decript House Design in St. Gortheia powered by Gorth Inc.</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__notification-item header__notification-item--viewed">
+                                        <a href="#" class="header__notification-link">
+                                            <img src="https://mouldkingcorp.com/cdn/shop/files/Mould-King-logos512_1be3b5dc-2181-4035-8e76-378a7caef4e3.jpg?v=1665652823" alt="" class="header__notification-img">
+                                            <div class="header__notification-info">
+                                                <span class="header__notification-name">Architectural's House Designed by Japtor</span>
+                                                <span class="header__notification-description">Decript House Design in St. Gortheia powered by Gorth Inc.</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__notification-item">
+                                        <a href="#" class="header__notification-link">
+                                            <img src="https://images.ctfassets.net/4cd45et68cgf/Rx83JoRDMkYNlMC9MKzcB/2b14d5a59fc3937afd3f03191e19502d/Netflix-Symbol.png?w=700&h=456" alt="" class="header__notification-img">
+                                            <div class="header__notification-info">
+                                                <span class="header__notification-name">Architectural's House Designed by Japtor</span>
+                                                <span class="header__notification-description">Decript House Design in St. Gortheia powered by Gorth Inc.</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <footer class="header__notification-footer">
+                                    <a href="#" class="header__notification-footer-btn">
+                                        <h3>Show all notifications</h3>
+                                    </a>
+                                </footer>
+                            </div>
+                        </li>
+                        <li class="header__navbar-item">
+                            <a href="#" class="header__navbar-item-link">
+                                <i class="header__navbar-icon fa-solid fa-circle-question"></i>
+                                <span>Helper</span>
+                            </a>
+                        </li>
+                        <!-- <li class="header__navbar-item header__navbar-item--bold">Sign up</li>
+                        <li class="header__navbar-item--separate"></li>
+                        <li class="header__navbar-item header__navbar-item--bold">Log in</li> -->
+                        <li class="header__navbar-item header__navbar-user">
+                            <img src="https://images.ctfassets.net/4cd45et68cgf/Rx83JoRDMkYNlMC9MKzcB/2b14d5a59fc3937afd3f03191e19502d/Netflix-Symbol.png?w=700&h=456" alt="" class="header__navbar-user-avt header__navbar-icon">
+                            <span class="header__navbar-user-name">Japtor Gortheia</span>
+                            <!-- <a href="#" class="header__navbar-item-link">
+                                <i class="header__navbar-icon fa-solid fa-user"></i>
+                            </a> -->
+                            <ul class="header__navbar-user-menu">
+                                <li class="header__navbar-user-item">
+                                    <a href="#">My Account</a>
+                                </li>
+                                <li class="header__navbar-user-item">
+                                    <a href="#">My Address</a>
+                                </li>
+                                <li class="header__navbar-user-item">
+                                    <a href="#">My Purchase</a>
+                                </li>
+                                <li class="header__navbar-user-item header__navbar-user-item--logout">
+                                    <a href="#">Log out</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header__probar">
+                    <div class="header__logo">
+                        <a href="/" class="header__logo-link">
+                            <div class="header__logo-img">
+                                <i class="fa-solid fa-cube"></i>
+                                <p class="hide-on-moblie-tablet">Gorth Shop</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="header__search">
+                        <div class="header__search-input">
+                            <input type="text" class="header__search-input-typing" placeholder="Search Product">
+                            <div class="header__search-history">
+                                <h3 class="header__search-history-heading">Search History</h3>
+                                <ul class="header__search-history-list">
+                                    <li class="header__search-history-item">
+                                        <a href="https://www.lego.com/en-us">LEGO</a>
+                                    </li>
+                                    <li class="header__search-history-item">
+                                        <a href="#">MouldKing</a>
+                                    </li>
+                                    <li class="header__search-history-item">
+                                        <a href="#">MOC</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <li class="header__navbar-item--separate"></li>
+                        <div class="header__search-select">
+                            <span class="header__search-label">Option</span>
+                            <i class="fa-solid fa-caret-down"></i>
+                            <ul class="header__search-option">
+                                <li class="header__search-option-item header__search-option-item--active">
+                                    <span>In this Shop</span>
+                                    <i class="fa-solid fa-check"></i>
+                                </li>
+                                <li class="header__search-option-item header__search-option-item--active">
+                                    <span>In all Shop</span>
+                                    <i class="fa-solid fa-check"></i>
+                                </li>
+                                <li class="header__search-option-item">
+                                    <span>In other</span>
+                                    <i class="fa-solid fa-check"></i>
+                                </li>
+                            </ul>
+                        </div>
+                        <button class="header__search-btn">
+                            <div class="header__search-btn-icon">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </div>
+                        </button>
+                    </div>
+                    <div class="header__cart">
+                        <div class="header__cart-wrap">
+                            <div class="header__cart-icon">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <span>999</span>
+                                <!-- Notice -->
+                            </div>
+                            <!-- <div class="header__cart-list header__cart-list--none-product">
+                                <i class="fa-solid fa-bag-shopping"></i>
+                                <span>None Product</span>
+                            </div> -->
+                            <div class="header__cart-list header__cart-list--have-product">
+                                <header class="header__cart-heading">
+                                    <h3>List Product on Cart</h3>
+                                </header>
+                                <ul class="header__cart-list-item">
+                                    <li class="header__cart-item">
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/LEGO_logo.svg/1200px-LEGO_logo.svg.png" alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h3 class="header__cart-item-name">LEGO A wealth of adventure Recommended For You Read All About It Build the epic new Gringotts™ Wizarding Bank Collectors Edition.</h3>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">$9.999,99</span>
+                                                    <span class="header__cart-item-multiply">x</span>
+                                                    <span class="header__cart-item-quantity">9</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-descript">Kind: Toys</span>
+                                                <div class="header__cart-item-remove">
+                                                    <span>Remove</span>
+                                                    <i class="fa-solid fa-trash"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="header__cart-item">
+                                        <img src="https://mouldkingcorp.com/cdn/shop/files/Mould-King-logos512_1be3b5dc-2181-4035-8e76-378a7caef4e3.jpg?v=1665652823" alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h3 class="header__cart-item-name">MouldKing</h3>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">$8.999,99</span>
+                                                    <span class="header__cart-item-multiply">x</span>
+                                                    <span class="header__cart-item-quantity">8</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-descript">Kind: Toys</span>
+                                                <div class="header__cart-item-remove">
+                                                    <span>Remove</span>
+                                                    <i class="fa-solid fa-trash"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="header__cart-item">
+                                        <img src="https://images.ctfassets.net/4cd45et68cgf/Rx83JoRDMkYNlMC9MKzcB/2b14d5a59fc3937afd3f03191e19502d/Netflix-Symbol.png?w=700&h=456" alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h3 class="header__cart-item-name">Netflix</h3>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">$6.999,99</span>
+                                                    <span class="header__cart-item-multiply">x</span>
+                                                    <span class="header__cart-item-quantity">6</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-descript">Kind: Films</span>
+                                                <div class="header__cart-item-remove">
+                                                    <span>Remove</span>
+                                                    <i class="fa-solid fa-trash"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <footer class="header__cart-footing">
+                                    <h3 class="header__cart-prod-qnt">9 More Product in Cart</h3>
+                                    <a href="#" class="header__cart-view btn btn--primary">View Cart</a>
+                                </footer>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <ul class="header__sort-bar">
+                <li class="header__sort-item">
+                    <a href="#" class="header__sort-link">Auto</a>
+                </li>
+                <li class="header__navbar-item--separate"></li>
+                <li class="header__sort-item">
+                    <a href="#" class="header__sort-link">Newest</a>
+                </li>
+                <li class="header__navbar-item--separate"></li>
+                <li class="header__sort-item header__sort-item--active">
+                    <a href="#" class="header__sort-link">Soldest</a>
+                </li>
+                <li class="header__navbar-item--separate"></li>
+                <li class="header__sort-item">
+                    <a href="#" class="header__sort-link header__sort-caret">
+                        <span>Prices</span>
+                        <span href="#" class="header__sort-icon">
+                            <i class="fa-solid fa-caret-up"></i>
+                            <i class="fa-solid fa-caret-down"></i>
+                        </span>
+                    </a>
+                </li>
+            </ul>
+        </header>
+        <div id="container" class="container">
+            <div class="grid wide"> 
+                <div class="row">
+                    <div class="col l-2">
+                        <nav class="category">
+                            <div class="category__heading">
+                                <i class="fa-solid fa-list"></i>
+                                <h3>Category</h3>
+                            </div>
+                            <ul class="category-list">
+                                <li class="category-item category-item--active">
+                                    <i class="fa-solid fa-caret-right"></i>
+                                    <a href="#" class="category-item__link">All Product</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">Product</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">Product</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col l-10">
+                        <div class="home-filter hide-on-moblie-tablet">
+                            <div class="home-filter__sort">
+                                <h3 class="home-filter__label">Sort by</h3>
+                                <button class="home-filter__label-btn btn btn--primary">Popular</button>
+                                <button class="home-filter__label-btn btn">Lastest</button>
+                                <button class="home-filter__label-btn btn">Top Sales</button>
+                                <div class="home-filter__select-inpput select-inpput">
+                                    <span>Price</span>
+                                    <i class="fa-solid fa-caret-down"></i>
+                                    <ul class="home-filter__select-list">
+                                        <li class="home-filter__select-item">
+                                            <a href="#" class="home-filter__select-link">Price: Low to High</a>
+                                        </li>
+                                        <li class="home-filter__select-item">
+                                            <a href="#" class="home-filter__select-link">Price: High to Low</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="home-filter__page">
+                                <div class="home-filter__page-number">
+                                    <span class="home-filter__page-current">1</span>
+                                    /
+                                    <span class="home-filter__page-all">16</span>
+                                </div>
+                                <div class="home-filter__page-control">
+                                    <a href="#" class="home-filter__page-btn home-filter__page-btn--disabled">
+                                        <i class="fa-solid fa-caret-left"></i>
+                                    </a>
+                                    <a href="#" class="home-filter__page-btn">
+                                        <i class="fa-solid fa-caret-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="home-product">
+                            <div class="row">
+                                <div class="col l-2-4">
+                                    <a href="#" class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(./assets/img/product/Flower4.jpg);"></div>
+                                        <h3 class="home-product-item__name">MacBook Pro 16'' M2Pro or M2Max 8TB SSD 64GB RAM with TouchID in 2,15Kg</h3>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">4.999,90$</span>
+                                            <span class="home-product-item__price-new">3.999,90$</span>
+                                            <i class="fa-solid fa-truck"></i>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <div class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-emply fa-regular fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fa-solid fa-heart"></i>
+                                            </div>
+                                            <div class="home-product-item__rate">
+                                                <i class="home-product-item__star-icon-fill fa-solid fa-star"></i>
+                                                <!-- <i class="home-product-item__star-icon-emply fa-regular fa-star"></i> -->
+                                                <i class="home-product-item__star-icon-fill fa-solid fa-star"></i>
+                                                <!-- <i class="home-product-item__star-icon-emply fa-regular fa-star"></i> -->
+                                                <i class="home-product-item__star-icon-fill fa-solid fa-star"></i>
+                                                <!-- <i class="home-product-item__star-icon-emply fa-regular fa-star"></i> -->
+                                                <i class="home-product-item__star-icon-fill fa-solid fa-star"></i>
+                                                <!-- <i class="home-product-item__star-icon-emply fa-regular fa-star"></i> -->
+                                                <i class="home-product-item__star-icon-fill fa-solid fa-star"></i>
+                                                <!-- <i class="home-product-item__star-icon-emply fa-regular fa-star"></i> -->
+                                            </div>
+                                            <div class="home-product-item__sold">999 Sold</div>
+                                            <!-- <div class="home-product-item__sold">99.9k Sold</div> -->
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Gorth</span>
+                                            <span class="home-product-item__from">UK</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Preferred</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__ssle-off-percent">20%</span>
+                                            <span class="home-product-item__ssle-off-label">OFF</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col l-2-4">
+                                    <a href="#" class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(./assets/img/product/Flower5.jpg);"></div>
+                                        <h3 class="home-product-item__name">MacBook Pro 16'' M2Pro or M2Max 8TB SSD 64GB RAM with TouchID in 2,15Kg</h3>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">4.999,90$</span>
+                                            <span class="home-product-item__price-new">3.999,90$</span>
+                                            <i class="fa-solid fa-truck"></i>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <div class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-emply fa-regular fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fa-solid fa-heart"></i>
+                                            </div>
+                                            <div class="home-product-item__rate">
+                                                <i class="home-product-item__star-icon-fill fa-solid fa-star"></i>
+                                                <!-- <i class="home-product-item__star-icon-emply fa-regular fa-star"></i> -->
+                                                <i class="home-product-item__star-icon-fill fa-solid fa-star"></i>
+                                                <!-- <i class="home-product-item__star-icon-emply fa-regular fa-star"></i> -->
+                                                <i class="home-product-item__star-icon-fill fa-solid fa-star"></i>
+                                                <!-- <i class="home-product-item__star-icon-emply fa-regular fa-star"></i> -->
+                                                <i class="home-product-item__star-icon-fill fa-solid fa-star"></i>
+                                                <!-- <i class="home-product-item__star-icon-emply fa-regular fa-star"></i> -->
+                                                <i class="home-product-item__star-icon-fill fa-solid fa-star"></i>
+                                                <!-- <i class="home-product-item__star-icon-emply fa-regular fa-star"></i> -->
+                                            </div>
+                                            <div class="home-product-item__sold">999 Sold</div>
+                                            <!-- <div class="home-product-item__sold">99.9k Sold</div> -->
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Gorth</span>
+                                            <span class="home-product-item__from">UK</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Preferred</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__ssle-off-percent">20%</span>
+                                            <span class="home-product-item__ssle-off-label">OFF</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col l-2-4">
+                                    <a href="#" class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(./assets/img/product/Flower6.jpg);"></div>
+                                        <h3 class="home-product-item__name">MacBook Pro 16'' M2Pro or M2Max 8TB SSD 64GB RAM with TouchID in 2,15Kg</h3>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">4.999,90$</span>
+                                            <span class="home-product-item__price-new">3.999,90$</span>
+                                            <i class="fa-solid fa-truck"></i>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <div class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-emply fa-regular fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fa-solid fa-heart"></i>
+                                            </div>
+                                            <div class="home-product-item__rate">
+                                                <i class="home-product-item__star-icon-fill fa-solid fa-star"></i>
+                                                <!-- <i class="home-product-item__star-icon-emply fa-regular fa-star"></i> -->
+                                                <i class="home-product-item__star-icon-fill fa-solid fa-star"></i>
+                                                <!-- <i class="home-product-item__star-icon-emply fa-regular fa-star"></i> -->
+                                                <i class="home-product-item__star-icon-fill fa-solid fa-star"></i>
+                                                <!-- <i class="home-product-item__star-icon-emply fa-regular fa-star"></i> -->
+                                                <i class="home-product-item__star-icon-fill fa-solid fa-star"></i>
+                                                <!-- <i class="home-product-item__star-icon-emply fa-regular fa-star"></i> -->
+                                                <i class="home-product-item__star-icon-fill fa-solid fa-star"></i>
+                                                <!-- <i class="home-product-item__star-icon-emply fa-regular fa-star"></i> -->
+                                            </div>
+                                            <div class="home-product-item__sold">999 Sold</div>
+                                            <!-- <div class="home-product-item__sold">99.9k Sold</div> -->
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Gorth</span>
+                                            <span class="home-product-item__from">UK</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Preferred</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__ssle-off-percent">20%</span>
+                                            <span class="home-product-item__ssle-off-label">OFF</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col l-2-4">
+                                    <a href="#" class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(./assets/img/product/Flower7.jpg);"></div>
+                                        <h3 class="home-product-item__name">MacBook Pro 16'' M2Pro or M2Max 8TB SSD 64GB RAM with TouchID in 2,15Kg</h3>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">4.999,90$</span>
+                                            <span class="home-product-item__price-new">3.999,90$</span>
+                                            <i class="fa-solid fa-truck"></i>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <div class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-emply fa-regular fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fa-solid fa-heart"></i>
+                                            </div>
+                                            <div class="home-product-item__rate">
+                                                <i class="home-product-item__star-icon-fill fa-solid fa-star"></i>
+                                                <!-- <i class="home-product-item__star-icon-emply fa-regular fa-star"></i> -->
+                                                <i class="home-product-item__star-icon-fill fa-solid fa-star"></i>
+                                                <!-- <i class="home-product-item__star-icon-emply fa-regular fa-star"></i> -->
+                                                <i class="home-product-item__star-icon-fill fa-solid fa-star"></i>
+                                                <!-- <i class="home-product-item__star-icon-emply fa-regular fa-star"></i> -->
+                                                <i class="home-product-item__star-icon-fill fa-solid fa-star"></i>
+                                                <!-- <i class="home-product-item__star-icon-emply fa-regular fa-star"></i> -->
+                                                <i class="home-product-item__star-icon-fill fa-solid fa-star"></i>
+                                                <!-- <i class="home-product-item__star-icon-emply fa-regular fa-star"></i> -->
+                                            </div>
+                                            <div class="home-product-item__sold">999 Sold</div>
+                                            <!-- <div class="home-product-item__sold">99.9k Sold</div> -->
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Gorth</span>
+                                            <span class="home-product-item__from">UK</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Preferred</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__ssle-off-percent">20%</span>
+                                            <span class="home-product-item__ssle-off-label">OFF</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col l-2-4">
+                                    <a href="#" class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(./assets/img/product/Flower9.jpg);"></div>
+                                        <h3 class="home-product-item__name">MacBook Pro 16'' M2Pro or M2Max 8TB SSD 64GB RAM with TouchID in 2,15Kg</h3>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">4.999,90$</span>
+                                            <span class="home-product-item__price-new">3.999,90$</span>
+                                            <i class="fa-solid fa-truck"></i>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <div class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-emply fa-regular fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fa-solid fa-heart"></i>
+                                            </div>
+                                            <div class="home-product-item__rate">
+                                                <i class="home-product-item__star-icon-fill fa-solid fa-star"></i>
+                                                <!-- <i class="home-product-item__star-icon-emply fa-regular fa-star"></i> -->
+                                                <i class="home-product-item__star-icon-fill fa-solid fa-star"></i>
+                                                <!-- <i class="home-product-item__star-icon-emply fa-regular fa-star"></i> -->
+                                                <i class="home-product-item__star-icon-fill fa-solid fa-star"></i>
+                                                <!-- <i class="home-product-item__star-icon-emply fa-regular fa-star"></i> -->
+                                                <i class="home-product-item__star-icon-fill fa-solid fa-star"></i>
+                                                <!-- <i class="home-product-item__star-icon-emply fa-regular fa-star"></i> -->
+                                                <i class="home-product-item__star-icon-fill fa-solid fa-star"></i>
+                                                <!-- <i class="home-product-item__star-icon-emply fa-regular fa-star"></i> -->
+                                            </div>
+                                            <div class="home-product-item__sold">999 Sold</div>
+                                            <!-- <div class="home-product-item__sold">99.9k Sold</div> -->
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Gorth</span>
+                                            <span class="home-product-item__from">UK</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Preferred</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__ssle-off-percent">20%</span>
+                                            <span class="home-product-item__ssle-off-label">OFF</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col l-2-4">
+                                    <a href="#" class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(./assets/img/product/Flower8.jpg);"></div>
+                                        <h3 class="home-product-item__name">MacBook Pro 16'' M2Pro or M2Max 8TB SSD 64GB RAM with TouchID in 2,15Kg</h3>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">4.999,90$</span>
+                                            <span class="home-product-item__price-new">3.999,90$</span>
+                                            <i class="fa-solid fa-truck"></i>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <div class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-emply fa-regular fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fa-solid fa-heart"></i>
+                                            </div>
+                                            <div class="home-product-item__rate">
+                                                <i class="home-product-item__star-icon-fill fa-solid fa-star"></i>
+                                                <!-- <i class="home-product-item__star-icon-emply fa-regular fa-star"></i> -->
+                                                <i class="home-product-item__star-icon-fill fa-solid fa-star"></i>
+                                                <!-- <i class="home-product-item__star-icon-emply fa-regular fa-star"></i> -->
+                                                <i class="home-product-item__star-icon-fill fa-solid fa-star"></i>
+                                                <!-- <i class="home-product-item__star-icon-emply fa-regular fa-star"></i> -->
+                                                <i class="home-product-item__star-icon-fill fa-solid fa-star"></i>
+                                                <!-- <i class="home-product-item__star-icon-emply fa-regular fa-star"></i> -->
+                                                <i class="home-product-item__star-icon-fill fa-solid fa-star"></i>
+                                                <!-- <i class="home-product-item__star-icon-emply fa-regular fa-star"></i> -->
+                                            </div>
+                                            <div class="home-product-item__sold">999 Sold</div>
+                                            <!-- <div class="home-product-item__sold">99.9k Sold</div> -->
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Gorth</span>
+                                            <span class="home-product-item__from">UK</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Preferred</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__ssle-off-percent">20%</span>
+                                            <span class="home-product-item__ssle-off-label">OFF</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pagination home-product__page">
+                            <ul class="pagination-wrap">
+                                <li class="pagination-item">
+                                    <a href="#" class="pagination-item__link">
+                                        <i class="fa-solid fa-caret-left"></i>
+                                    </a>
+                                </li>
+                                <li class="pagination-item pagination-item--active">
+                                    <a href="#" class="pagination-item__link">
+                                        <span>1</span>
+                                    </a>
+                                </li>
+                                <li class="pagination-item">
+                                    <a href="#" class="pagination-item__link">
+                                        <span>2</span>
+                                    </a>
+                                </li>
+                                <li class="pagination-item">
+                                    <a href="#" class="pagination-item__link">
+                                        <span>3</span>
+                                    </a>
+                                </li>
+                                <li class="pagination-item">
+                                    <a href="#" class="pagination-item__link">
+                                        <span>4</span>
+                                    </a>
+                                </li>
+                                <li class="pagination-item">
+                                    <a href="#" class="pagination-item__link">
+                                        <span>5</span>
+                                    </a>
+                                </li>
+                                <li class="pagination-item">
+                                    <a href="#" class="pagination-item__link">
+                                        <span>...</span>
+                                    </a>
+                                </li>
+                                <li class="pagination-item">
+                                    <a href="#" class="pagination-item__link">
+                                        <span>16</span>
+                                    </a>
+                                </li>
+                                <li class="pagination-item">
+                                    <a href="#" class="pagination-item__link">
+                                        <i class="fa-solid fa-caret-right"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer id="footer" class="footer">
+            <div class="grid wide">
+                <div class="row footer__wrap">
+                    <div class="col l-2-4">
+                        <h3 class="footer__heading">Payment</h3>
+                    </div>
+                    <div class="col l-2-4">
+                        <h3 class="footer__heading">Customer Service</h3>
+                        <ul class="footer__list">
+                            <li class="footer__list-item">
+                                <a href="#" class="footer__list-item-link">Help Centre</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="#" class="footer__list-item-link">Gorth Blog</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="#" class="footer__list-item-link">Gorth Mall</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="#" class="footer__list-item-link">Contact Us</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="#" class="footer__list-item-link">Warranty Policy</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-2-4">
+                        <h3 class="footer__heading">About Gorth</h3>
+                        <ul class="footer__list">
+                            <li class="footer__list-item">
+                                <a href="#" class="footer__list-item-link">About Us</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="#" class="footer__list-item-link">Gorth Careers</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="#" class="footer__list-item-link">Gorth Policies</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="#" class="footer__list-item-link">Gorth Mail</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="#" class="footer__list-item-link">Seller Centre</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="#" class="footer__list-item-link">Privacy Policy</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="#" class="footer__list-item-link">Media Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-2-4">
+                        <h3 class="footer__heading">Follow Us</h3>
+                        <ul class="footer__list">
+                            <li class="footer__list-item" style="--social-color: #1877f2">
+                                <a href="#" class="footer__list-item-link">
+                                    <i class="fa-brands fa-square-facebook"></i>
+                                    <span>FaceBook</span>
+                                </a>
+                            </li>
+                            <li class="footer__list-item" style="--social-color: #fe035f">
+                                <a href="#" class="footer__list-item-link">
+                                    <i class="fa-brands fa-square-instagram"></i>
+                                    <span>Instagram</span>
+                                </a>
+                            </li>
+                            <li class="footer__list-item" style="--social-color: #000000">
+                                <a href="#" class="footer__list-item-link">
+                                    <i class="fa-brands fa-square-threads"></i>
+                                    <span>Threads</span>
+                                </a>
+                            </li>
+                            <li class="footer__list-item" style="--social-color: #179cf0">
+                                <a href="#" class="footer__list-item-link">
+                                    <i class="fa-brands fa-square-twitter"></i>
+                                    <span>Twitter</span>
+                                </a>
+                            </li>
+                            <li class="footer__list-item" style="--social-color: #fe0000">
+                                <a href="#" class="footer__list-item-link">
+                                    <i class="fa-brands fa-square-youtube"></i>
+                                    <span>YouTube</span>
+                                </a>
+                            </li>
+                            <li class="footer__list-item" style="--social-color: #e6001a">
+                                <a href="#" class="footer__list-item-link">
+                                    <i class="fa-brands fa-square-pinterest"></i>
+                                    <span>Pinterest</span>
+                                </a>
+                            </li>
+                            <li class="footer__list-item" style="--social-color: #0a66c2">
+                                <a href="#" class="footer__list-item-link">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                    <span>LinkedIn</span>
+                                </a>
+                            </li>
+                            <li class="footer__list-item" style="--social-color: #fffc00">
+                                <a href="#" class="footer__list-item-link">
+                                    <i class="fa-brands fa-square-snapchat"></i>
+                                    <span>Snapchat</span>
+                                </a>
+                            </li>
+                            <li class="footer__list-item" style="--social-color: #000000">
+                                <a href="#" class="footer__list-item-link">
+                                    <i class="fa-brands fa-square-github"></i>
+                                    <span>Github</span>
+                                </a>
+                            </li>
+                            <li class="footer__list-item" style="--social-color: #ff4300">
+                                <a href="#" class="footer__list-item-link">
+                                    <i class="fa-brands fa-square-reddit"></i>
+                                    <span>Reddit</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-2-4">
+                        <h3 class="footer__heading">Gorth App</h3>
+                        <div class="footer__download">
+                            <img src="./assets/img/app/qrcode.png" alt="Gorth App" class="footer__download-qr">
+                            <div class="footer__download-app">
+                                <a href="#" class="footer__download-app-link">
+                                    <img src="./assets/img/app/playstore.png" alt="Play Store" class="footer__download-app-icon">
+                                </a>
+                                <a href="#" class="footer__download-app-link">
+                                    <img src="./assets/img/app/appstore.png" alt="App Store" class="footer__download-app-icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row copyright">
+                    <div class="col l-4">
+                        <h3>Copyright © 2020 Gorth Inc. All rights reserved.</h3>
+                    </div>
+                    <div class="col l-6">
+                        <ul class="row copyright__list">
+                            <a href="#">Privacy Policy</a>
+                            <li class="header__navbar-item--separate"></li>
+                            <a href="#">Terms of Use</a>
+                            <li class="header__navbar-item--separate"></li>
+                            <a href="#">Sales and Refunds</a>
+                            <li class="header__navbar-item--separate"></li>
+                            <a href="#">Legal</a>
+                            <li class="header__navbar-item--separate"></li>
+                            <a href="#">Site Map</a>
+                        </ul>
+                    </div>
+                    <div class="col l-2 copyright__located">United Kingdom</div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- <div class="modal">
+        <div class="modal__overlay">
+
+        </div>
+        <div class="modal__body">
+            <div class="auth-form">
+                <div class="auth-form__container">
+                    <div class="auth-form__header">
+                        <h3 class="auth-form__heading">Sign up</h3>
+                        <span class="auth-form__switch-btn">Log in</span>
+                    </div>
+                    <div class="auth-form__formal">
+                        <div class="auth-form__group">
+                            <input type="text" class="auth-form__input" placeholder="Username">
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form__input" placeholder="Password">
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form__input" placeholder="Re-Password">
+                        </div>
+                    </div>
+                    <div class="auth-form__agree">
+                        <p class="auth-form__agree-text">
+                            Agree
+                            <a href="#" class="auth-form__agree-link">Policy</a>
+                            &
+                            <a href="#" class="auth-form__agree-link">Privacy</a>
+                            of
+                            <a href="#" class="auth-form__agree-link" style="color: var(--main-color);">Gorth Inc.</a>
+                            to Sign up new Account
+                        </p>
+                    </div>
+                    <div class="auth-form__control">
+                        <button class="btn auth-form__control-back">BACK</button>
+                        <button class="btn btn--primary">SIGN UP</button>
+                    </div>
+                </div>
+                <div class="auth-form__social">
+                    <a href="#" class="auth-form__social--apple btn btn--size-s btn--with-icon">
+                        <i class="auth-form__social-icon fa-brands fa-apple"></i>
+                        <span>Connect to Apple</span>
+                    </a>
+                    <a href="#" class="auth-form__social--meta btn btn--size-s btn--with-icon">
+                        <i class="auth-form__social-icon fa-brands fa-meta"></i>
+                        <span>Connect to Meta</span>
+                    </a>
+                    <a href="#" class="auth-form__social--google btn btn--size-s btn--with-icon">
+                        <i class="auth-form__social-icon fa-brands fa-google"></i>
+                        <span>Connect to Google</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="modal__body">
+            <div class="auth-form">
+                <div class="auth-form__container">
+                    <div class="auth-form__header">
+                        <h3 class="auth-form__heading">Log in</h3>
+                        <span class="auth-form__switch-btn">Sign up</span>
+                    </div>
+                    <div class="auth-form__formal">
+                        <div class="auth-form__group">
+                            <input type="text" class="auth-form__input" placeholder="Username">
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form__input" placeholder="Password">
+                        </div>
+                    </div>
+                    <div class="auth-form__help">
+                        <a href="#" class="auth-form__help-link">Forgot Password</a>
+                        <a href="#" class="auth-form__help-link">Need to Help?</a>
+                    </div>
+                    <div class="auth-form__control">
+                        <button class="btn auth-form__control-back">BACK</button>
+                        <button class="btn btn--primary">LOG IN</button>
+                    </div>
+                </div>
+                <div class="auth-form__social">
+                    <a href="#" class="auth-form__social--apple btn btn--size-s btn--with-icon">
+                        <i class="auth-form__social-icon fa-brands fa-apple"></i>
+                        <span>Login with Apple</span>
+                    </a>
+                    <a href="#" class="auth-form__social--meta btn btn--size-s btn--with-icon">
+                        <i class="auth-form__social-icon fa-brands fa-meta"></i>
+                        <span>Login with Meta</span>
+                    </a>
+                    <a href="#" class="auth-form__social--google btn btn--size-s btn--with-icon">
+                        <i class="auth-form__social-icon fa-brands fa-google"></i>
+                        <span>Login with Google</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div> -->
+</body>
+</html>
